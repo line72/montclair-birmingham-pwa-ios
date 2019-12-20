@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="net.line72.montclair" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Montclair</name>
-    <description>
-        Birmingham, AL Realtime Bus Tracker.
-    </description>
+<widget xmlns="http://www.w3.org/ns/widgets" id="net.line72.montclair" version="1.2.1">
+    <name>Birmingham Transit</name>
+    <description>Real Time Bus Tracking for Birmingham, AL</description>
     <author email="line72@line72.net" href="http://line72.net">
         Marcus Dillavou
     </author>

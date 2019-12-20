@@ -1,7 +1,7 @@
 {
-    "short_name": "Montclair",
-    "name": "Montclair",
-    "description": "Montclair Bus Tracker for Birmingham, AL",
+    "short_name": "Birmingham Transit",
+    "name": "Birmingham Transit",
+    "description": "Real Time Bus Tracking for Birmingham, AL",
     "icons": [
         {
             "src": "https://montclair.line72.net/favicon.ico",
