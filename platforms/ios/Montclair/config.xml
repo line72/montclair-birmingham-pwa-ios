@@ -1,7 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="net.line72.montclair" version="1.2.1">
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.gotransitapp.birmingham" version="1.2.2">
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
     </feature>
     <feature name="HandleOpenUrl">
         <param name="ios-package" value="CDVHandleOpenURL" />
@@ -15,38 +19,25 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="HostedWebApp">
-        <param name="ios-package" value="CDVHostedWebApp" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
-    </feature>
-    <name>Birmingham Transit</name>
-    <description>Real Time Bus Tracking for Birmingham, AL</description>
+    <name>Go Birmingham</name>
+    <description>Real Time Tracking of the Buses for Birmingham, AL</description>
     <author email="line72@line72.net" href="http://line72.net">
         Marcus Dillavou
     </author>
-    <content src="https://montclair.line72.net/index.html" />
+    <content src="https://birmingham.gotransitapp.com/index.html" />
     <access origin="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation hap-rule="yes" href="https://montclair.line72.net/*" />
+    <allow-navigation hap-rule="yes" href="https://birmingham.gotransitapp.com/*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <icon height="152" src="/favicon.ico" width="152" />
     <icon height="144" src="/favicon.ico" width="144" />
     <icon height="72" src="/favicon.ico" width="72" />
     <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="BackupWebStorage" value="local" />
+    <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
     <preference name="EnableViewportScale" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
@@ -58,5 +49,7 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="BackgroundColor" value="0xffffffff" />
 </widget>
